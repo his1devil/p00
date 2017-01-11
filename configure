@@ -1,0 +1,23 @@
+;
+; 数据库连接启动参数设置
+;
+[server]
+server = localhost
+port = 22
+
+[mysql_user]
+user = root
+password = 123
+
+; 数据库实例运行用户 默认非root为1，root则设置为0
+[mysql_runner]
+user = 1
+
+[start]
+; 如果mysql不是以socket方式连接，设置为0
+; 默认sock连接为1
+socket = 1
+
+[fields]
+; 添加需要获取的status ',' 分隔符
+status = Master_Host, Master_User, Master_Port, Slave_IO_State, Slave_IO_Running, Slave_SQL_Running, Slave_SQL_Running_State
