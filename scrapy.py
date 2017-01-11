@@ -1,6 +1,5 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
-import requests
 import subprocess
 import ConfigParser
 try:
@@ -82,7 +81,8 @@ if __name__ == '__main__':
     # 数据库连接方式
     # sock = cfg.get('start', 'socket')
     # if sock:
-    #     connection = "echo 'show slave status\G;'|mysql -u{0} -p{1} -S {2}".format('root', '123', '/tmp/mysql3307.sock')
+    #     connection = "echo 'show slave status\G;'|mysql -u{0} -p{1} -S {2}"
+    # .format('root', '123', '/tmp/mysql3307.sock')
     #
     # # 获取服务器内存状态
     # server = DBInfo()
@@ -93,10 +93,4 @@ if __name__ == '__main__':
     # df = subprocess.Popen(["df", "filename"], stdout=subprocess.PIPE)
     # output = df.communicate()[0]
     # device, size, used, available, percent, mountpoint = \
-    #     output.split("\n")[1].split()
-
-
-
-
-
-
+    #     output.split("\n")[1].split()\
