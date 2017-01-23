@@ -233,7 +233,7 @@ if __name__ == '__main__':
     # login_data = dict(headers=headers, csrfmiddlewaretoken=csrftoken, next='/')
     # r = client.post(URL, data=login_data, headers=dict(Referer=URL))
     #
-    # http://cmdb.pplive.cn/odb/hostdetail/?ip=10.203.4.20  获取服务器资产编号
+    # hostdetail/?ip=10.203.4.20  获取服务器资产编号
     # {"status": "\u4f7f\u7528\u4e2d",
     # "ip": "10.203.4.20",
     # "hostname": "shwgq-t-mysql-4-10.osd-sql2-s.lin.idc.pplive.cn",
