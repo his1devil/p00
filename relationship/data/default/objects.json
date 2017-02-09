@@ -1,0 +1,27 @@
+[
+   {
+        "type"    : "view",
+        "name"    : "db_view_3",
+        "depends" : [
+          "db_view_4",
+          "db_view_5"
+        ]
+    }, {
+        "type"    : "view",
+        "name"    : "db_view_4",
+        "depends" : [
+        ]
+    }, {
+        "type"    : "view",
+        "name"    : "db_view_5",
+        "depends" : [
+
+        ]
+    },
+    {
+        "type"    : "table",
+        "group"   : "Mapping",
+        "name"    : "db_table_1",
+        "depends" : []
+    }
+]

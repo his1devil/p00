@@ -1,0 +1,49 @@
+{
+    "title" : "Database process documentation",
+    "graph" : {
+        "linkDistance" : 200,
+        "charge"       : -400,
+        "height"       : 1500,
+        "numColors"    : 12,
+        "labelPadding" : {
+            "left"   : 3,
+            "right"  : 3,
+            "top"    : 10,
+            "bottom" : 2
+        },
+        "labelMargin" : {
+            "left"   : 3,
+            "right"  : 3,
+            "top"    : 2,
+            "bottom" : 2
+        },
+        "ticksWithoutCollisions" : 50
+    },
+    "types" : {
+        "view"        : {
+            "short" : "View",
+            "long"  : "Database view"
+        },
+        "table"       : {
+            "short" : "Table",
+            "long"  : "Database table"
+        },
+        "query"       : {
+            "short" : "Query",
+            "long"  : "Database query"
+        }
+    },
+    "constraints" : [
+         {
+            "has"    : { "type" : "table" },
+            "type"   : "position",
+            "y"      : 0.1,
+            "weight" : 0.8
+        }, {
+            "has"    : { "type" : "view" },
+            "type"   : "position",
+            "y"      : 0.2,
+            "weight" : 0.8
+        }
+    ]
+}
