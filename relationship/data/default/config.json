@@ -3,7 +3,7 @@
     "graph" : {
         "linkDistance" : 200,
         "charge"       : -400,
-        "height"       : 1500,
+        "height"       : 500,
         "numColors"    : 12,
         "labelPadding" : {
             "left"   : 3,
@@ -41,6 +41,11 @@
             "weight" : 0.8
         }, {
             "has"    : { "type" : "view" },
+            "type"   : "position",
+            "y"      : 0.2,
+            "weight" : 0.8
+        }, {
+            "has"    : { "type" : "SERVER" },
             "type"   : "position",
             "y"      : 0.2,
             "weight" : 0.8

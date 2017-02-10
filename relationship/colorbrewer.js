@@ -250,7 +250,7 @@ var colorbrewer = {YlGn: {
 },Paired: {
 3: ["#a6cee3","#1f78b4","#b2df8a"],
 4: ["#a6cee3","#1f78b4","#b2df8a","#33a02c"],
-5: ["#a6cee3","#1f78b4","#b2df8a","#33a02c","#fb9a99"],
+5: ["#39a1f4","#5cb85c","#b2df8a","#33a02c","#fb9a99"], // 自定义
 6: ["#a6cee3","#1f78b4","#b2df8a","#33a02c","#fb9a99","#e31a1c"],
 7: ["#a6cee3","#1f78b4","#b2df8a","#33a02c","#fb9a99","#e31a1c","#fdbf6f"],
 8: ["#a6cee3","#1f78b4","#b2df8a","#33a02c","#fb9a99","#e31a1c","#fdbf6f","#ff7f00"],
