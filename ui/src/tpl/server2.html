@@ -1,0 +1,19 @@
+<div class="bg-light lter b-b wrapper-md">
+  <h1 class="m-n font-thin h5">数据库信息</h1>
+</div>
+<div class="wrapper-md" ng-controller="GridDemoCtrl">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      sql stats
+    </div>
+    <div class="panel-body">
+      <form>
+        <input st-search placeholder="SEARCH" class="input-sm form-control" ng-model="query" type="search"/>
+      </form>
+    </div>
+    <div class="table-responsive">
+
+      <div ng-grid="gridOptions" style="min-height:420px"></div>
+    </div>
+  </div>
+</div>

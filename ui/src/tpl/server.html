@@ -1,0 +1,54 @@
+<div class="bg-light lter b-b wrapper-md">
+    <h1 class="m-n font-thin h5">数据库信息</h1>
+</div>
+<div class="wrapper-md" ng-controller="ServerTableCtrl">
+
+    <div class="panel panel-default" id="graph-container">
+        <div class="panel-heading">SQL Stats</div>
+        <div class="panel-body col-sm-5">
+            <form>
+                <input type="text" ng-model="search" class="input-sm form-control" placeholder="SEARCH">
+            </form>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>SQL</th>
+                    <th>ip addr</th>
+                    <th>port</th>
+                    <th>datadir</th>
+                    <th ng-click="sort('datadir_size')">datadir size
+                        <span class="fa fa-sort"></span></th>
+                    <th>Role</th>
+                    <th>业务</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr dir-paginate="data in sqls|orderBy:sortKey:reverse|filter:search|itemsPerPage:10">
+                    <td>{{data.SQL}}</td>
+                    <td>{{data.ip_addr}}</td>
+                    <td>{{data.port}}</td>
+                    <td>{{data.datadir}}</td>
+                    <td>{{data.datadir_size}}</td>
+                    <td><button class="btn btn-sm ms" ng-class="{ 'btn-info': data.m_s === 'M', 'btn-success': data.m_s === 'S' }">{{data.m_s}}</button>
+                        <td>{{data.code}}</td>
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+            </tfoot>
+
+        </table>
+        <div class="text-center">
+            <dir-pagination-controls max-size="9" direction-links="true" boundary-links="true">
+            </dir-pagination-controls>
+        </div>
+    </div>
+    <div id="docs-container">
+    <a id="docs-close">&times;</a>
+    <div id="graph"></div>
+    <div id="docs" class="docs"></div>
+    </div>
+
+</div>

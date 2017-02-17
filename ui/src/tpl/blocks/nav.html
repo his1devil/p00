@@ -1,0 +1,205 @@
+<!-- list -->
+<ul class="nav">
+
+    <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+        <span>监控</span>
+    </li>
+
+    <li ui-sref-active="active">
+        <a ui-sref="app.server">
+            <i class="glyphicon icon-bar-chart text-primary-dker"></i>
+            <span>SHOW</span>
+        </a>
+    </li>
+    <li>
+        <a href class="auto">
+            <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+            <i class="glyphicon fa fa-linux"></i>
+            <span>服务器</span>
+        </a>
+        <ul class="nav nav-sub dk">
+            <li class="nav-sub-header">
+                <a href>
+                    <span>Layout</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="layout.app">
+                    <span>主机监控</span>
+                </a>
+            </li>
+
+        </ul>
+    </li>
+    <li>
+        <a href class="auto">
+            <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+            <i class="glyphicon glyphicon-hdd icon text-success-lter"></i>
+            <span>MySQL</span>
+        </a>
+        <ul class="nav nav-sub dk">
+            <li class="nav-sub-header">
+                <a href>
+                    <span>Layout</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="layout.app">
+                    <span>stats</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="layout.fullwidth">
+                    <span>灾备管理</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="layout.fullwidth">
+                    <span>备份恢复</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="layout.mobile">
+                    <span>安装接管</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+    <li ng-class="{active:$state.includes('app.ui')}">
+        <a href class="auto">
+            <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+            <i class="glyphicon fa fa-database text-success-lter"></i>
+            <span>Redis</span>
+        </a>
+        <ul class="nav nav-sub dk">
+            <li class="nav-sub-header">
+                <a href>
+                    <span>Layout</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="layout.app">
+                    <span>stats</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="layout.fullwidth">
+                    <span>灾备管理</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="layout.fullwidth">
+                    <span>备份恢复</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="layout.mobile">
+                    <span>安装接管</span>
+                </a>
+            </li>
+        </ul>
+    </li>
+
+    <li class="line dk"></li>
+
+    <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+        <span>配置</span>
+    </li>
+    <li>
+        <a href class="auto">
+            <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+            <i class="glyphicon glyphicon-cog icon text-success"></i>
+            <span class="font-bold">配置选项</span>
+        </a>
+        <ul class="nav nav-sub dk">
+            <li class="nav-sub-header">
+                <a href>
+                    <span></span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="app.dashboard-v1">
+                    <span>主机配置</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="app.dashboard-v1">
+                    <span>MySQL配置</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="app.dashboard-v1">
+                    <span>Redis配置</span>
+                </a>
+            </li>
+
+        </ul>
+    </li>
+    <!-- <li>
+        <a href class="auto">
+            <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+            <i class="glyphicon glyphicon-th-large icon text-success"></i>
+            <span class="font-bold">Apps</span>
+        </a>
+        <ul class="nav nav-sub dk">
+            <li class="nav-sub-header">
+                <a href>
+                    <span>Apps</span>
+                </a>
+            </li>
+        </ul>
+    </li> -->
+
+    <li class="line dk"></li>
+
+
+    <li class="hidden-folded padder m-t m-b-sm text-muted text-xs">
+        <span>用户</span>
+    </li>
+    <li ui-sref-active="active" class>
+        <a ui-sref="app.calendar">
+            <i class="glyphicon glyphicon glyphicon-user text-info-dker"></i>
+            <span class="font-bold">用户管理</span>
+        </a>
+    </li>
+    <li>
+        <a href class="auto">
+            <span class="pull-right text-muted">
+        <i class="fa fa-fw fa-angle-right text"></i>
+        <i class="fa fa-fw fa-angle-down text-active"></i>
+      </span>
+            <i class="glyphicon icon-lock text-success"></i>
+            <span class="font-bold">权限管理</span>
+        </a>
+        <ul class="nav nav-sub dk">
+            <li class="nav-sub-header">
+                <a href>
+                    <span>MySQL配置</span>
+                </a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="app.dashboard-v1">
+                    <span>服务器新增</span>
+                </a>
+            </li>
+
+        </ul>
+    </li>
+
+</ul>
+<!-- / list -->

@@ -1,0 +1,103 @@
+
+#content-wrapper {
+  min-height: 100%;
+  overflow-x: hidden;
+  margin-left: 0px;
+  transition: margin-left 0.2s;
+  margin-bottom: -50px;
+  padding-bottom: 50px;
+  font-size:0.9em;
+}
+
+/* relationship charts style */
+
+.unsupported-browser {
+    height: 30px;
+    line-height: 30px;
+    padding: 5px 0 5px 45px;
+    margin: 8px 8px 8px 100px;
+    display: none;
+}
+html.lt-ie9 .unsupported-browser {
+    display: block;
+}
+
+#docs-list {
+    margin: 50px 8px 8px 8px;
+}
+
+#docs-list .docs {
+    border-bottom: 1px solid #ccc;
+    margin: 12px 0;
+}
+
+html.lt-ie9 #graph-container {
+    display: none;
+}
+
+#split-container {
+    height: 100%;
+    width: 100%;
+}
+
+#graph-container {
+    width: 100%;
+    overflow-y: scroll;
+}
+
+#docs-container {
+    width: 100%;
+    height: 300px;
+    border-top: 3px solid #ccc;
+    display: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition: margin-left 0.2s;
+    margin-left: 0px;
+}
+
+#docs-close {
+    display: block;
+    /*position: fixed;*/
+    float:right;
+    font-size: 1.4em;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    right: 8px;
+    /*background: white;*/
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+}
+#docs-close:hover {
+    background: #ccc;
+}
+#docs-scroll {
+    overflow-y: scroll;
+}
+#docs {
+    padding: 8px;
+    text-align: center;
+}
+
+.docs h2 {
+    font-size: 24px; /* h3 */
+    margin-top: 0;
+}
+.docs h3 {
+    font-size: 18px; /* h4 */
+}
+.docs h2 em, .docs h3 em {
+    font-size: 14px;
+    color: #999;
+    padding-left: 4px;
+    font-style: normal;
+}
+.docs pre {
+    margin: 8px;
+    padding: 4px;
+}
+.docs .select-object.missing {
+    color: #c7254e;
+}

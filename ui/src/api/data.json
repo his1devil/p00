@@ -1,0 +1,40 @@
+{
+    "data": {
+        "端口3306": {
+            "type": "view",
+            "name": "端口3306",
+            "depends": [
+                "端口3307",
+                "端口3308"
+            ],
+            "dependedOnBy": [],
+            "docs": "端口3306"
+        },
+        "端口3307": {
+            "type": "view",
+            "name": "端口3307",
+            "depends": [],
+            "dependedOnBy": [
+                "端口3306"
+            ],
+            "docs": "端口3307"
+        },
+        "端口3308": {
+            "type": "view",
+            "name": "端口3308",
+            "depends": [],
+            "dependedOnBy": [
+                "端口3306"
+            ],
+            "docs": "端口3308"
+        },
+        "10.200.0.1": {
+            "type": "server",
+            "name": "10.200.0.1",
+            "depends": ["端口3306"],
+            "dependedOnBy": [],
+            "docs": "服务器 10.200.0.1"
+        }
+    },
+    "errors": []
+}

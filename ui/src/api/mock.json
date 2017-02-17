@@ -1,0 +1,12 @@
+{
+    "data": {
+        "mock-port": {
+            "type": "view",
+            "name": "port",
+            "depends": [],
+            "dependedOnBy": [],
+            "docs": "portdemo"
+        }
+    },
+    "errors": []
+}

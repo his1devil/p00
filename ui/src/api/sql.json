@@ -1,0 +1,175 @@
+[
+  {
+    "SQL": "MySQL",
+    "ip_addr": "10.0.0.1",
+    "port": "3306",
+    "datadir": "/data/data3306",
+    "datadir_size": "37.0G",
+    "m_s": "M",
+    "code": "ywlb"
+  },
+  {
+      "SQL": "MySQL",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3306",
+      "datadir_size": "36.0G",
+      "m_s": "S",
+      "code": "lb"
+  },
+  {
+      "SQL": "Redis",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3306",
+      "datadir_size": "35.0G",
+      "m_s": "S",
+      "code": "backup"
+  }
+  ,
+  {
+      "SQL": "Redis",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3306",
+      "datadir_size": "35.0G",
+      "m_s": "M",
+      "code": "backup"
+  }
+  ,
+  {
+      "SQL": "Redis",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3306",
+      "datadir_size": "33.0G",
+      "m_s": "S",
+      "code": "backup"
+  },
+  {
+      "SQL": "Redis",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3308",
+      "datadir_size": "20.0G",
+      "m_s": "S",
+      "code": "backup"
+  },
+  {
+      "SQL": "Redis",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3307",
+      "datadir_size": "35.0G",
+      "m_s": "M",
+      "code": "ywlb"
+  },
+  {
+      "SQL": "MySQL",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3306",
+      "datadir_size": "36.0G",
+      "m_s": "S",
+      "code": "ywlb"
+  },
+  {
+      "SQL": "MySQL",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3306",
+      "datadir_size": "36.0G",
+      "m_s": "S",
+      "code": "sync"
+  },
+  {
+      "SQL": "MySQL",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3306",
+      "datadir_size": "36.0G",
+      "m_s": "S",
+      "code": "ywlb"
+  },
+  {
+      "SQL": "MySQL",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3306",
+      "datadir_size": "36.0G",
+      "m_s": "S",
+      "code": "ywlb"
+  },
+  {
+      "SQL": "MySQL",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3306",
+      "datadir_size": "36.0G",
+      "m_s": "S",
+      "code": "master"
+  },
+  {
+      "SQL": "MySQL",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3306",
+      "datadir_size": "36.0G",
+      "m_s": "S",
+      "code": "sync"
+  },
+  {
+      "SQL": "MySQL",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3306",
+      "datadir_size": "36.0G",
+      "m_s": "S",
+      "code": "lb"
+  },
+  {
+      "SQL": "MySQL",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3306",
+      "datadir_size": "36.0G",
+      "m_s": "S",
+      "code": "ywlb"
+  },
+  {
+      "SQL": "MySQL",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3306",
+      "datadir_size": "36.0G",
+      "m_s": "S",
+      "code": "ywlb"
+  },
+  {
+      "SQL": "MySQL",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3306",
+      "datadir_size": "36.0G",
+      "m_s": "S",
+      "code": "ywlb"
+  },
+  {
+      "SQL": "MySQL",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3306",
+      "datadir_size": "36.0G",
+      "m_s": "S",
+      "code": "ywlb"
+  },
+  {
+      "SQL": "MySQL",
+      "ip_addr": "10.0.0.2",
+      "port": "3306",
+      "datadir": "/data/data3306",
+      "datadir_size": "36.0G",
+      "m_s": "S",
+      "code": "ywlb"
+  }
+]
